@@ -30,4 +30,5 @@ variable "name_prefix" {
 
 variable "start_port" {
     description = "first port for iteration"
+    type = number
 }
